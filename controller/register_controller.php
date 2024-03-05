@@ -1,11 +1,11 @@
 <?php
 require_once '../model/userModel.php';
 
-class AuthController
+// Créer un user avec les données rentrées (register)
+class RegisterController
 {
     public function processRegistration()
     {
-        echo "Script reached point A";
 
         if (
             $_SERVER['REQUEST_METHOD'] === 'POST' &&
@@ -29,6 +29,8 @@ class AuthController
     }
 }
 
-$authController = new AuthController();
+$authController = new RegisterController();
 $authController->processRegistration();
 ?>
+
+

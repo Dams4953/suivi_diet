@@ -10,6 +10,7 @@ class UserModel
         $this->db = $db;
     }
 
+    // INSERT les données dans la base de données (register)
     public function createUser($firstName, $lastName, $username, $email, $phone, $password)
     {
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
@@ -26,4 +27,15 @@ class UserModel
         $query->execute();
         
     }
+
+    // SELECT username et password de la base de données (login)
+    public function getUserByUsername($username)
+{
+    $query = $this->db->prepare("SELECT username, password FROM users WHERE username = :username");
+    $query->bindParam(':username', $username);
+    $query->execute();
+
+    return $query->fetch(PDO::FETCH_ASSOC);
+}
+
 }

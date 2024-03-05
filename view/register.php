@@ -14,7 +14,7 @@
 
         <h1 class="text-2xl font-semibold mb-6">Inscription</h1>
 
-        <form action="../controller/auth_controller.php" method="POST">
+        <form action="../controller/register_controller.php" method="POST">
 
             <div class="mb-4">
                 <label for="first_name" class="block text-gray-600 text-sm font-medium mb-2">Prénom</label>

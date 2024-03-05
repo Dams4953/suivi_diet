@@ -14,11 +14,11 @@
 
         <h1 class="text-2xl font-semibold mb-6">Connexion</h1>
 
-        <form action="" method="POST">
+        <form action="../controller/login_controller.php" method="POST">
 
             <div class="mb-4">
-                <label for="email" class="block text-gray-600 text-sm font-medium mb-2">Adresse e-mail</label>
-                <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-400" required>
+                <label for="username" class="block text-gray-600 text-sm font-medium mb-2">Nom d'utilisateur</label>
+                <input type="username" id="username" name="username" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-400" required>
             </div>
 
             <div class="mb-4">
@@ -26,7 +26,7 @@
                 <input type="password" id="password" name="password" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-400" required>
             </div>
 
-            <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300">Se connecter</button>
+            <button type="submit" name="login" class="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300">Se connecter</button>
 
         </form>
 
