@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <title>Inscription Réussie</title>
 </head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-<nav class="bg-green-1000 p-4 absolute top-0 left-0 right-0 border-b-4">
+
+<body class="bg-gray-100 text-green-500 flex items-center justify-center h-screen">
+
+    <nav class="bg-green-1000 p-4 absolute top-0 left-0 right-0 border-b-4">
         <div class="w-full flex items-center justify-between">
             <a href="http://projets.test/suivi_diet/" class="hover:text-gray-300">
-            <img src="src/img/logo.png" alt="Logo" class="mx-auto h-40 w-auto">
+                <img src="view/src/img/logo.png" alt="Logo" class="mx-auto h-40 w-auto">
             </a>
             <div class="flex items-center space-x-4">
                 <form action="" method="POST">
@@ -26,13 +29,6 @@
         </div>
     </nav>
 
-    <div class="bg-white p-8 rounded shadow-md max-w-md w-full">
-        <h1 class="text-2xl font-bold mb-4">Inscription Réussie !</h1>
-        
-        <p class="text-gray-700 mb-4">Merci de vous être inscrit. Vous pouvez maintenant vous connecter à votre compte.</p>
-        
-        <a href="login.php" class="bg-green-500 text-white py-2 px-4 rounded inline-block hover:bg-green-600">Se Connecter</a>
-    </div>
-
 </body>
+
 </html>
