@@ -22,7 +22,7 @@
                 <form action="" method="POST">
                     <button type="submit" class="font-bold text-gray-800 py-2 px-4">Calculateur métabolisme basal</button>
                 </form>
-                <form action="view/login.php" method="POST">
+                <form action="login.php" method="POST">
                     <button type="submit" class="font-bold bg-black text-white py-2 px-4 mx-8 rounded-full hover:bg-gray-700">Mon profil</button>
                 </form>
             </div>

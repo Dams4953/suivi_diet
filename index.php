@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-100 text-green-500 flex items-center justify-center h-screen">
+<body class="bg-gray-100 flex items-center justify-center h-screen">
 
     <nav class="p-4 absolute top-0 left-0 right-0 border-b-4">
         <div class="w-full flex items-center justify-between">
@@ -28,6 +28,10 @@
             </div>
         </div>
     </nav>
+
+       <div class="bg-white p-8 rounded shadow-md w-96">
+        <h1 class="text-2xl font-semibold mb-6">En chantier</h1>
+    </div>
 
 </body>
 
