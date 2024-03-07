@@ -10,7 +10,7 @@
 
 <body class="bg-gray-100 text-green-500 flex items-center justify-center h-screen">
 
-    <nav class="bg-green-1000 p-4 absolute top-0 left-0 right-0 border-b-4">
+    <nav class="p-4 absolute top-0 left-0 right-0 border-b-4">
         <div class="w-full flex items-center justify-between">
             <a href="http://projets.test/suivi_diet/" class="hover:text-gray-300">
                 <img src="view/src/img/logo.png" alt="Logo" class="mx-auto h-40 w-auto">
@@ -23,7 +23,7 @@
                     <button type="submit" class="font-bold text-gray-800 py-2 px-4">Calculateur métabolisme basal</button>
                 </form>
                 <form action="view/login.php" method="POST">
-                    <button type="submit" class="font-bold bg-green-600 text-white py-2 px-4 mx-8 rounded-full hover:bg-green-700">Mon profil</button>
+                    <button type="submit" class="font-bold bg-black text-white py-2 px-4 mx-8 rounded-full hover:bg-gray-700">Mon profil</button>
                 </form>
             </div>
         </div>
