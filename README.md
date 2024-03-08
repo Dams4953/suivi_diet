@@ -1,12 +1,12 @@
-*En cours de dévelopemment*
+*under development*
 
 https://disciplineplus.online/
 
 ## About ##
 
-Ce site a pour but de simplifier le suivi de votre remise en forme. Vous pourrez enregistrer vos données de poids, nutrition et activité physique, bénéficiant d'un journal de bord complet pour suivre votre progression. De plus, des fonctionnalités supplémentaires seront intégrées pour enrichir votre expérience, telles que le calcul de votre IMC, de votre métabolisme basal, une estimation des calories brûlées en fonction de vos données, et bien d'autres outils pratiques pour soutenir votre parcours de remise en forme.
+This site aims to simplify the monitoring of your fitness. You will be able to record your weight, nutrition and physical activity data, benefiting from a complete logbook to track your progress. In addition, additional features will be integrated to enrich your experience, such as the calculation of your BMI, your basal metabolism, an estimate of calories burned based on your data, and many other practical tools to support your fitness journey.
 
-## langages ##
+## languages ##
 
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat-the-badge&logo=html5&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=flat-the-badge&logo=tailwind-css&logoColor=white)
