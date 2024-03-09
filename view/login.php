@@ -15,17 +15,6 @@
             background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
         }
 
-        .intro-text {
-            position: absolute;
-            top: 0;
-            left: 0;
-            margin-top: 20px;
-            margin-left: 20px;
-            max-width: 1200;
-
-            z-index: 1;
-        }
-
         .custom-text {
             font-family: 'Black Ops One', sans-serif;
             opacity: 0.6;
@@ -46,15 +35,15 @@
             }
         }
 
-        .delay-3s {
+        .delay-05s {
             animation-delay: 0.5s;
         }
 
-        .delay-5s {
+        .delay-3s {
             animation-delay: 3s;
         }
 
-        .delay-7s {
+        .delay-5s {
             animation-delay: 5s;
         }
     </style>
@@ -63,18 +52,18 @@
 <body class="h-screen flex flex-col items-start justify-start bg-no-repeat bg-cover bg-center" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('src/img/background1.jpg');">
     <nav>
         <div class="flex items-center">
-            <div class="ml-40">
+        <div class="ml-16 -mt-11">
                 <a href="http://projets.test/suivi_diet/" class="hover:text-gray-300">
-                    <img src="src/img/logo.png" alt="Logo" class="h-96 w-auto">
+                    <img src="src/img/logo1.png" alt="Logo" class="h-96 w-auto">
                 </a>
             </div>
         </div>
     </nav>
 
-    <div class="intro-text">
-        <p class="fade-in-paragraph delay-3s text-white font-serif italic text-2xl mt-60 ml-20 mb-2 custom-text">Sculptez harmonieusement votre corps</p>
-        <p class="fade-in-paragraph delay-5s text-white font-serif italic text-2xl font-medium mt-4 ml-20 mb-2 custom-text">Maîtrisez judicieusement votre nutrition</p>
-        <p class="fade-in-paragraph delay-7s text-white font-serif italic text-2xl mt-4 ml-20 mb-2 custom-text">Excellez dans votre sport avec passion</p>
+    <div style="position: absolute; top: 250px; left: 100px;">
+        <p class="fade-in-paragraph delay-05s text-white font-serif italic text-2xl custom-text">Sculptez harmonieusement votre corps</p>
+        <p class="fade-in-paragraph delay-3s text-white font-serif italic text-2xl mt-6 custom-text">Maîtrisez judicieusement votre nutrition</p>
+        <p class="fade-in-paragraph delay-5s text-white font-serif italic text-2xl mt-6 custom-text">Excellez dans votre sport avec passion</p>
     </div>
 
 
@@ -121,3 +110,5 @@
 
 
 </html>
+
+
