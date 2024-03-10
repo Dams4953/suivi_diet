@@ -78,12 +78,12 @@
 
                 <div class="mb-4">
                     <label for="username" class="block text-white text-sm font-medium mb-2">Nom d'utilisateur</label>
-                    <input type="username" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-400" required>
+                    <input type="username" name="username" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-400" required>
                 </div>
 
                 <div class="mb-4">
                     <label for="password" class="block text-white text-sm font-medium mb-2">Mot de passe</label>
-                    <input type="password" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-400" required>
+                    <input type="password" name="password" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-400" required>
                 </div>
 
                 <button type="submit" name="login" class="w-full bg-black text-white p-2 rounded-md hover:bg-gray-600 focus:outline-none focus:ring focus:border-blue-300">Se
