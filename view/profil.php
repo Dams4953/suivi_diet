@@ -6,7 +6,7 @@ if (!isset($_SESSION['username'])) {
     exit();
 }
 ?>
-<?php include('calendar.php'); ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +38,6 @@ if (!isset($_SESSION['username'])) {
         <a href="http://projets.test/suivi_diet/view/nutrition.php" class="mt-6 hover:text-gray-800">Nutrition</a>
         <a href="http://projets.test/suivi_diet/view/sport.php" class="mt-6 hover:text-gray-800">Sport</a>
         </div>
-        
     </nav>
 
 

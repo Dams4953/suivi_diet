@@ -1,13 +1,3 @@
-<?php
-require('../controller/login_controller.php');
-
-if (!isset($_SESSION['username'])) {
-    header('Location: login.php');
-    exit();
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,9 +29,38 @@ if (!isset($_SESSION['username'])) {
             <a href="http://projets.test/suivi_diet/view/in/sport.php" class="mt-6 hover:text-gray-800">Sport</a>
         </div>
     </nav>
-    <main class="w-full">
-        <div class="mt-44 ml-20 h-auto w-5/12">
+
+    <main class="w-full flex">
+        <div class="mt-44 ml-20 w-5/12 ">
             <?php include('calendar.php'); ?>
+        </div>
+
+        <div class="mt-44 ml-56 w-6/10">
+            <form action="process_form.php" method="POST" class="bg-white p-8 rounded-md shadow-md">
+                <h2 class="text-2xl font-semibold mb-6 text-gray-800">Ajouter une entrée</h2>
+
+                <div class="mb-4">
+                    <label for="kcal" class="block text-sm font-medium text-gray-600">Kcal:</label>
+                    <input type="text" id="kcal" name="kcal" class="w-full p-2 border rounded-md" required>
+                </div>
+
+                <div class="mb-4">
+                    <label for="glucides" class="block text-sm font-medium text-gray-600">Glucides (g):</label>
+                    <input type="text" id="glucides" name="glucides" class="w-full p-2 border rounded-md" required>
+                </div>
+
+                <div class="mb-4">
+                    <label for="proteines" class="block text-sm font-medium text-gray-600">Protéines (g):</label>
+                    <input type="text" id="proteines" name="proteines" class="w-full p-2 border rounded-md" required>
+                </div>
+
+                <div class="mb-4">
+                    <label for="lipides" class="block text-sm font-medium text-gray-600">Lipides (g):</label>
+                    <input type="text" id="lipides" name="lipides" class="w-full p-2 border rounded-md" required>
+                </div>
+
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600">Ajouter</button>
+            </form>
         </div>
     </main>
 </body>
